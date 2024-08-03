@@ -1,0 +1,29 @@
+.servicios {
+    border: 1px solid bisque;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 16px 0;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.servicios .info h4 {
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    border-bottom: 1px solid bisque;
+    padding-bottom: 10px;
+}
+
+.servicios .info p {
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.servicios img {
+    border-radius: 10px;
+    display: block;
+
+}

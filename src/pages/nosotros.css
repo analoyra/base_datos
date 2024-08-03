@@ -1,0 +1,30 @@
+nosotros {
+    background: radial-gradient(circle, rgba(250, 201, 163, 0.9962184702982756) 0%, rgba(223, 220, 220, 1) 59%, rgba(226, 217, 217, 0.9485994226792279) 100%);
+    border: 1px solid white;
+    border-radius: 20px;
+    display: flex;
+    margin: 20px;
+    padding: 10px;
+    align-items: center;
+    gap: 30px;
+}
+
+.nosotros p {
+    font-weight: lighter;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+
+}
+
+.nosotros img {
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.nosotros h2 {
+    padding: 10px;
+}
+
+.nosotros:nth-child(even) {
+    flex-direction: row-reverse;
+}

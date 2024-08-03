@@ -1,0 +1,43 @@
+section {
+
+    display: contents;
+    flex-wrap: wrap;
+    width: 33%;
+    justify-content: flex-start;
+}
+
+
+
+section img {
+    /* width:0px; */
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s all;
+    box-sizing: content-box;
+
+
+}
+
+section img:hover {
+    cursor: crosshair;
+    opacity: 1;
+    filter: contrast(120%)
+}
+
+.foto {
+
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.foto h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: azure;
+    font-size: 40px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-align: center;
+}
